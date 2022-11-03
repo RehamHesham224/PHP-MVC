@@ -1,9 +1,10 @@
 <?php
+require 'vendor/autoload.php';
 
-$query=require 'bootstrap.php';
+require 'core/bootstrap.php';
 
-require 'Article.php';
+use App\core\{Router, Request};
 
-$articles = $query->selectAll('articles','Article');
+Router::load('app/routes.php')
+    ->direct(Request::uri(),Request::method());
 
-require 'views/index.view.php';
