@@ -1,14 +1,14 @@
 # PHP-MVC
-PHP MVC Project Using PHP &amp; Mysql  .
+PHP MVC Project Using PHP &amp; Mysql.
 
 ## Content
 
-- MCV Framework Basics
+- MVC Framework Basics
   - Directory Structure
   - Class Organizing 
   - Composer &  autoload files
   
-- MCV Framework cont.
+- MVC Framework cont.
   - Router 
   - Controller
   - View
